@@ -39,9 +39,6 @@
 ├── main.py               # 主实验脚本(含可复现的 per-method 种子)
 ├── run_experiment.sh     # 快速运行脚本
 ├── 答题_题目二.md         # ⭐ 题目二完整回答(i)-(vii)
-├── REPORT.md             # 实验报告(设置/结果/分析)
-├── THEORY.md             # 论文方法详解与代码对应
-├── ANALYSIS.md           # 结果深入分析
 └── results/ results_shift/  # 两套机制的结果(json + 3 张图)
 ```
 
@@ -91,7 +88,4 @@ OPD 的 advantage 定义为 `A_t = log π_T(a_t|s_t) − log π_θ(a_t|s_t)`(sto
 - DAgger patch:`dagger_opd_train()`
 - 对比论文 2509.26497(forward-KL 软标签蒸馏)的异同见 `答题_题目二.md` (vi)
 
-## 许可证
-
-MIT License — 仅用于教学和研究目的。
 </content>
